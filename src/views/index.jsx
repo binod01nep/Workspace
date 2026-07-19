@@ -1,0 +1,11 @@
+export { Dashboard } from './Dashboard';
+export { Projects } from './Projects';
+export { Tasks } from './Tasks';
+export { Submissions } from './Submissions';
+export { Messaging } from './Messaging';
+export { People } from './People';
+export { Analytics } from './Analytics';
+export { Login } from './Login';
+export { Settings } from './Settings';
+export { Profile } from './Profile';
+export { Home } from './Home';
