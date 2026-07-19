@@ -1,16 +1,55 @@
-# React + Vite
+# Workspace App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React dashboard-style application built with Vite, React Router, and Tailwind CSS. The app includes a responsive layout, authentication flow, theme support, project and task views, messaging, analytics, people management, and profile/settings screens.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Dashboard and overview screens
+- Project management and project detail pages
+- Task board and submissions views
+- Messaging interface
+- People and analytics pages
+- Profile and settings views
+- Light/dark theme support
+- Mocked app and auth context for UI flow
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Vite
+- React Router DOM
+- Tailwind CSS
+- Recharts
+- Lucide React
+- @hello-pangea/dnd for drag-and-drop interactions
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
+3. Open the local Vite URL shown in the terminal.
+
+## Available Scripts
+
+- `npm run dev` - Start the development server
+- `npm run build` - Build the app for production
+- `npm run preview` - Preview the production build
+- `npm run lint` - Run ESLint
+
+## Project Structure
+
+- `src/components` - Shared UI components such as layout and navigation
+- `src/contexts` - Application, authentication, and theme providers
+- `src/views` - Main pages and route-based screens
+- `src/data` - Mock data used by the app
+- `src/lib` - Utility helpers
+
+## Notes
+
+This project is currently configured as a front-end UI demo with mock data and client-side routing.
